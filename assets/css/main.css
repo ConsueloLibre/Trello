@@ -1,0 +1,70 @@
+header {
+    margin-top: -9px;
+    margin-left: -9px;
+}
+/*i.fa.fa-user-o {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #4e4d4d;
+    padding-left: 52px;
+    padding-top: 33px;
+}*/
+
+.tablero {
+    background: rgb(50, 101, 245);
+    width: 106%;
+    height: 600px;
+    margin-top: -6px;
+    margin-left: -9px;
+}
+.arriba {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 11px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 17px;
+}
+.icono {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+}
+i.fa.fa-star-o.icono {
+    margin-left: 236px;
+    margin-top: -33px;
+    padding-top: -31px;
+    position: absolute;
+}
+i.fa.fa-user-o.icono {
+    position: absolute;
+    margin-left: 298px;
+    margin-top: -32px;
+}
+.priv {
+    font-family: 'Nunito', sans-serif;
+    padding-top: -28px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 357px;
+    position: absolute;
+    margin-top: -53px;
+}
+div#barraDeTexto {
+  font-family: 'Nunito', sans-serif;
+  background: #5e8ed6;
+  width: 211px;
+  height: 34px;
+  line-height: 7px;
+  color: #fff;
+  margin-top: 76px;
+  position: absolute;
+  margin-left: 22px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
