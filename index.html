@@ -6,20 +6,22 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
-  <body>
-    <header>
+  <header>
       <img src="assets/img/header.png" alt="">
-    </header>
-    <section class="tablero">
-      <textarea id="comment" rows="8" cols="8"></textarea>
-      <div id="barraDeTexto"><p>Añadir una lista ...</p></div>
+  </header>
+  <body>
+
+    <div class="todo">
       <div class="arriba"><p>Tablero - Reto de Código</p></div>
       <i class="fa fa-star-o icono" aria-hidden="true"></i>
       <i class="fa fa-user-o icono" aria-hidden="true"></i>
       <div class="priv"><p>Privado</p></div>
-      <section id="contenedor"></section> <!-- este es el padre para DOM-->
-    </section>
+      <button id="button" onclick="trello()">Añadir a una lista...</button>
+      <div id="contiene"></div>
+
+    </div>
+
     <script src="https://use.fontawesome.com/7873633050.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>

@@ -10,7 +10,7 @@ header {
     padding-top: 33px;
 }*/
 
-.tablero {
+.todo {
     background: rgb(50, 101, 245);
     width: 106%;
     height: 600px;
@@ -50,6 +50,25 @@ i.fa.fa-user-o.icono {
     position: absolute;
     margin-top: -53px;
 }
+button#button {
+  width: 170px;
+  height: 35px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 41px;
+  color: #5a5a86;
+}
+button {
+  width: 169px;
+  height: 37px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  margin-left: 21px;
+  margin-top: 41px;
+  color: #5a5a86;
+  position: relative;
+}
 div#barraDeTexto {
   font-family: 'Nunito', sans-serif;
   background: #5e8ed6;
@@ -67,4 +86,8 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+textarea#comment {
+    margin-left: 56px;
+    margin-top: 84px;
 }
